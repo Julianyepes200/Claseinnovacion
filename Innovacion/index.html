@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Huella de Carbono Cero</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Tu Huella de Carbono Cero</h1>
+        <nav>
+            <ul>
+                <li><a href="#quienes-somos">Quiénes Somos</a></li>
+                <li><a href="#ventajas">Ventajas</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="quienes-somos">
+        <h2>Quiénes Somos</h2>
+        <p>Aquí puedes escribir una breve descripción de tu empresa y su misión.</p>
+    </section>
+
+    <section id="ventajas">
+        <h2>Ventajas</h2>
+        <ul>
+            <li>Reducción de la huella de carbono.</li>
+            <li>Certificación de huella de carbono cero.</li>
+            <li>Expertos en sostenibilidad empresarial.</li>
+        </ul>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Ponte en contacto con nosotros para obtener más información o programar una cita.</p>
+        <p>Número de Contacto: <a href="tel:+123456789">123-456-789</a></p>
+        <button id="cita-button">Pedir una Cita</button>
+    </section>
+
+    <section id="formulario">
+        <h2>Solicita Información</h2>
+        <form action="procesar_formulario.php" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Tu Huella de Carbono Cero</p>
+    </footer>
+</body>
+</html>
